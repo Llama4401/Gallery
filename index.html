@@ -1,0 +1,117 @@
+<html>
+  <head>
+    <title>
+      Blog with photos.
+    </title>
+    
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel = "stylesheet" href = "style.css">
+  </head>
+  <body>
+    <h1>
+      Hello, welcome to my photography world. 
+    </h1>
+    <div class="image-section">
+      <div class="section-stlye">
+        <img src="https://animals.sandiegozoo.org/sites/default/files/inline-images/llama.jpg">
+        <p>
+          This llama loves to search for things!
+        </p>
+      </div>
+    <div class="section-stlye">
+        <img src="https://news.blr.com/app/uploads/sites/3/2016/10/Llama-1.jpg">
+        <p>
+          Hes yelling at something!
+        </p>
+      </div>
+    </div>
+    <div class="image-section">
+      <div class="section-stlye">
+        <img src="https://www.ox.ac.uk/sites/files/oxford/styles/ow_medium_feature/s3/field/field_image_main/shutterstock_1175616652.jpg?itok=laVcFCdH">
+        <p>
+          They are protecting eachother!
+        </p>
+      </div>
+    <div class="section-stlye">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.J-kNANSDLoDukaTrlmGx8wHaLc&pid=Api&P=0&w=300&h=300">
+        <p>
+          He must be really strong!
+        </p>
+      </div>
+    </div>
+
+    <section id = "gallery">
+        <h1>Photo Slideshow</h1>
+
+        <div id = "slide" class = "carousel slide">  
+        <!--Inner Part of Slideshow-->  
+                <div class="carousel-inner">
+                    <!--Default Item to show-->
+                        <div class = "item active">
+                            <img  class = "img-responsive" src="https://animals.sandiegozoo.org/sites/default/files/inline-images/llama.jpg">  
+                                <!--Content of the Image-->
+                                <div class = "carousel-content">
+                                    <p>This llama loves to search for things!</p>
+
+                                </div>
+                        </div>
+
+                        <!-- Adding More Items-->
+                        <div class = "item">
+                            <img  class = "img-responsive" src="https://news.blr.com/app/uploads/sites/3/2016/10/Llama-1.jpg">  
+                                <!--Content of the Image-->
+                                <div class = "carousel-content">
+                                    <p> Hes yelling at something!  </p>
+
+                                </div>
+                        </div>
+
+                         <!-- Adding More Items-->
+                         <div class = "item">
+                            <img  class = "img-responsive" src="https://www.ox.ac.uk/sites/files/oxford/styles/ow_medium_feature/s3/field/field_image_main/shutterstock_1175616652.jpg?itok=laVcFCdH">  
+                                <!--Content of the Image-->
+                                <div class = "carousel-content">
+                                    <p> They are protecting eachother! </p>
+
+                                </div>
+                        </div>
+
+                         <!-- Adding More Items-->
+                         <div class = "item">
+                            <img  class = "img-responsive" src="https://tse2.mm.bing.net/th?id=OIP.J-kNANSDLoDukaTrlmGx8wHaLc&pid=Api&P=0&w=300&h=300">  
+                                <!--Content of the Image-->
+                                <div class = "carousel-content">
+                                    <p> He must be really strong! </p>
+
+                                </div>
+                        </div>
+                </div>
+        
+        
+        
+        <!--Left Control-->
+            <a class = "left carousel-control" href = "#slide" data-slide="prev" >
+                <span class = "glyphicon glyphicon-chevron-left"> 
+                </span>
+            </a>
+        
+        <!--Right Control-->
+            <a class = "right carousel-control" href = "#slide" data-slide="next" >
+                <span class = "glyphicon glyphicon-chevron-right"> 
+                </span>
+            </a>
+        
+        </div>
+
+
+    </section>
+  </body>
+</html>
